@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgb(177, 176, 175);
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    padding-left: 30px;
+    height: 75px;
+}
+header ul{
+    margin-right: 60px;
+    display: flex;
+}
+header li{
+    list-style: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header a{
+    text-decoration: none;
+    color: #242A59;
+    font-weight: bold;
+    font-size: 1em;
+}
+/*MAIN*/
+main{
+ padding-top: 80px;
+ background-color: #fff;
+ padding-left: 60px;
+ padding-right: 60px;
+}
+
+/*INPUT*/
+main .input{
+    position: relative;
+}
+main input{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border: 1px solid rgb(197, 196, 196) ;
+    padding-left: 10px;
+}
+.input img{
+    position: absolute;
+    right: 5px;
+    top:17px
+}
+
+/*SECTION 1*/
+.section1{
+    display: grid;
+    grid-template-columns: 54.70% 44.30%;
+}
+.section1 .img-relative{
+    position: relative;
+    font-size: 14px;
+}
+.section1 .titulo{
+    position: absolute;
+    color: #fff;
+    top: 20%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.section1 .parrafo{
+    position: absolute;
+    color: #fff;
+    top: 30%;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.section1 .autor{
+    position: absolute;
+    bottom: 35px;
+    left: 5px;
+    color: #fff;
+    font-size: 10px;
+}
+.section1 .fecha{
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+    color: #fff;
+    font-size: 10px;
+}
+.section1 button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 28px;
+    background-color:#AD195A ;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 12px;
+    width: 80px;
+}
+.section2 button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 28px;
+    background-color:#AD195A ;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 12px;
+    width: 80px;
+}
+.section1 div{
+    margin-left: 10px;
+    height: auto;
+}
+.section1 img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.relative1, .relative2, .relative3{
+    position: relative;
+}
+.relative1 button{
+    height: 28px;
+    background-color: #26A6BE ;
+ 
+}
+.relative1 .titulo, .relative2 .titulo, .relative3 .titulo{
+    position: absolute;
+    color: #fff;
+    top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.relative1 .parrafo, .relative2 .parrafo, .relative3 .parrafo{
+    position: absolute;
+    color: #fff;
+    top: 48px;
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.relative3 button{
+    height: 28px;
+    background-color: #213576 ;
+ 
+}
+
+h2{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+/*SECTION 2*/
+.section2{
+display: grid;
+grid-template-columns: 50% 50%;
+padding-left: 30px;
+padding-right: 30px;
+}
+.section2 div{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.section2 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgb(177, 176, 175);
+    width: 100%;
+    background-color: #fff;
+    align-items: center;
+    height: 75px;
+}
+footer div{
+    font-size: 12px;
+    padding-left: 30px;
+}
+footer img{
+    padding-right: 30px;
+}
+
