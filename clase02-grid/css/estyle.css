@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 80px auto 30px;
+    grid-template-areas: "header header header header" "aside main main main" "footer footer footer footer";
+    justify-content: center;
+}
+
+.wrapper header{
+    grid-area: header;
+    background-color: rgb(255, 161, 161);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+.wrapper aside{
+    grid-area: aside;
+    background-color: rgb(221, 157, 170);
+}
+.wrapper main{
+    grid-area: main;
+    background-color: rgb(226, 255, 255);
+}
+.wrapper footer{
+    grid-area: footer;
+    background-color:   rgb(255, 161, 161);
+}
